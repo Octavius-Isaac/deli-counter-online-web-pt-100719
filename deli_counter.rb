@@ -5,7 +5,7 @@ def line(katz_deli)
   if deli_line > 0 
     deli_line.each do |num, name|
       num = 1 
-      puts "This "
+      puts "The line is currently: #{num, deli_line}"
     end 
   puts current_line
   else
