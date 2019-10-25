@@ -5,7 +5,7 @@ else deli_line = "The line is currently:"
   katz_deli.each.with_index(1) do |person, num|
     deli_line << " #{num}. #{person}"
   end 
-  return deli_line
+  puts deli_line
 end 
 end
 
