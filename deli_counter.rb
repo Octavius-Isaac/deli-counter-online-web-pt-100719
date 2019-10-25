@@ -3,8 +3,7 @@ require 'pry'
 def line(katz_deli)
   deli_line = katz_deli.length 
   if deli_line > 0  
-    katz_deli.each.with_index(1) do |person, i|
-    current_line << " #{i}. #{person}"
+    deli_line.each { |n| puts "Current number is: #{n}" }
     end 
   puts current_line
   else
