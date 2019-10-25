@@ -2,8 +2,10 @@ require 'pry'
 
 def line(katz_deli)
   deli_line = katz_deli.length 
-  if deli_line > 0  
-    deli_line.each do 
+  if deli_line > 0 
+    deli_line.each do |num, name|
+      num = 1 
+      puts "This "
     end 
   puts current_line
   else
